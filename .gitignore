@@ -1,0 +1,26 @@
+# Ignore temporary files
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore node_modules
+node_modules/
+
+# Ignore bower_components
+public/components
+
+# Ignore environment config
+config/env/production.js
+config/env/secure.js
+config/env/development.js
+config/env/test.js
+
+# Ignore ssl certs
+config/ssl_certs
+
+# Ignore tmp folder
+.tmp/
+
+# Ignore jsx build cache folder
+public/build/.module-cache

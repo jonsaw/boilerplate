@@ -1,0 +1,36 @@
+{% extends 'layout.server.view.html' %}
+
+{% block styles %}
+    {% parent %}
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="large-12 columns">
+            <h1 class="text-center">Sign In</h1>
+        </div>
+    </div>
+    <form action="/signin" method="post">
+        <div class="row">
+            <div class="large-6 columns large-offset-3">
+               <label for="username">Username</label>
+               <input class="u-full-width" type="text" id="username" name="username">
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-6 columns large-offset-3">
+               <label for="password">Password</label>
+               <input class="u-full-width" type="password" id="password" name="password">
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-6 columns large-offset-3">
+                <input class="button small" type="submit" class="button-primary" value="Submit">
+            </div>
+        </div>
+    </form>
+{% endblock %}
+
+{% block scripts %}
+    {% parent %}
+{% endblock %}

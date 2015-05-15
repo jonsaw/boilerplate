@@ -1,0 +1,24 @@
+{
+    "env": {
+        "browser": true,
+        "node": true
+    },
+
+    "globals": {
+        "React": true,
+        "$": true,
+        "moment": true
+    },
+
+    "ecmaFeatures": {
+        "jsx": true
+    },
+
+    "plugins": [
+        "react"
+    ],
+
+    "rules": {
+        "camelcase": [2, {"properties": "never"}]
+    }
+}
