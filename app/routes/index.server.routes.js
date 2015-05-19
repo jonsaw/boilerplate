@@ -7,16 +7,16 @@ var core = require("../../app/controllers/index.server.controller"),
 var ALLOWED_USERS = [User.TYPES.ADMIN];
 
 module.exports = function (app) {
-    app.route("/")
-        .get(users.requiresLogin, users.hasAccess.bind(this, ALLOWED_USERS), core.index);
+  app.route("/")
+    .get(users.requiresLogin, users.hasAccess.bind(this, ALLOWED_USERS), core.index);
 
-    app.route("/signin")
-        .get(core.login)
-        .post(users.signin);
+  app.route("/signin")
+    .get(core.login)
+    .post(users.signin);
 
-    app.route("/signout")
-        .get(core.logout);
+  app.route("/signout")
+    .get(core.logout);
 
-    // Load routing files here
+  // Load routing files here
 
 };

@@ -1,90 +1,89 @@
 
 .full-width {
-    width: 100%;
+  width: 100%;
 }
 
 body {
-    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 nav.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 nav.navbar li {
-    float: left;
+  float: left;
 }
 
 nav.navbar a:link, nav.navbar a:visited {
-    display: block;
-    font-weight: bold;
-    padding: 10px;
+  display: block;
+  font-weight: bold;
+  padding: 10px;
 }
 
 #messages ul {
-    list-style-type: none;
-    margin: 0;
-    text-align: center;
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
 }
 
 #messages ul.info {
-    background: #1EAEDB;
-    color: #fff;
+  background: #1EAEDB;
+  color: #fff;
 }
 
 #messages ul.error {
-    background: #F03389;
-    color: #fff;
+  background: #F03389;
+  color: #fff;
 }
 
 #messages ul li {
-    font-size: 11px;
-    font-weight: 600;
-    border-bottom: 1px solid #bbb;
-    padding: 6px 30px;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    margin-bottom: 0;
+  font-size: 11px;
+  font-weight: 600;
+  border-bottom: 1px solid #bbb;
+  padding: 6px 30px;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin-bottom: 0;
 }
 
 @media print {
-    .print-only {
-        font-size: 0.9em;
-        font-family: "Courier New";
-    }
+  .print-only {
+    font-size: 0.9em;
+    font-family: "Courier New";
+  }
 
-    .print-only .print-line td {
-        border-bottom: 1px solid black;
-    }
+  .print-only .print-line td {
+    border-bottom: 1px solid black;
+  }
 
-    .print-only.row {
-        max-width: 21.6cm;
-    }
+  .print-only.row {
+    max-width: 21.6cm;
+  }
 
-    .print-only.row .row {
-        margin-left: 0;
-        margin-right: 0;
-    }
+  .print-only.row .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-    .print-only .columns {
-        padding-left: 0;
-        padding-right: 0;
-    }
+  .print-only .columns {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-    .print-only table {
-        border: none;
-        margin-bottom: 0;
-    }
+  .print-only table {
+    border: none;
+    margin-bottom: 0;
+  }
 
-    .print-only table tbody tr td, .print-only table tr td {
-        padding: 0;
-    }
+  .print-only table tbody tr td, .print-only table tr td {
+    padding: 0;
+  }
 
-    .print-only table tbody tr th, .print-only table tr th {
-        padding: 0;
-    }
+  .print-only table tbody tr th, .print-only table tr th {
+    padding: 0;
+  }
 }
-

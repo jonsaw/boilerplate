@@ -19,7 +19,7 @@ var User = bookshelf.Model.extend({
 });
 
 User.TYPES = {
-    SYSTEM_EARS: "SYSTEM_EARS"
+  SYSTEM_EARS: "SYSTEM_EARS"
 };
 
 User.prototype.authenticate = function (password) {
